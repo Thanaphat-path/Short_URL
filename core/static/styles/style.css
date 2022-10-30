@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+.header {
+    top: 0;
+    position: fixed; 
+    width: 100%;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+
+}
+.header_text{
+    font-size: 35px;
+}
+.main {
+    margin-top: 90px; 
+  }
+  .web_page {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #eee;
+} 
+.button_header {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 2px;
+    opacity: 0.4;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button_header:hover {
+    opacity: 1
+}
+
+.button_upload{
+    float:right;
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    text-align: right;
+    font-size: 16;
+    margin: 2px 20px;
+    opacity: 0.4;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer; 
+
+}
+.button_upload .button{
+    float:right;
+    background-color: #555;
+    border: none;
+    color: white;
+    text-align: right;
+    margin: 2px 20px;
+    cursor: pointer; 
+}
+.button_upload:hover {
+    opacity: 1
+}
+.table1{
+    width: 100%;
+    background-color: #b7b7b7;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s;
+    padding: 0px;
+    border-spacing:0px; 
+    border:0px;
+}
+.table1:hover {
+    background-color: #868686;
+    border-color: #b7b7b7;
+}
+
+.entities_1{
+    background-color: #aa9cfc;
+    text-align: center;
+}
+
+.input__label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+      margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * .5);
+      background: pink;
+      white-space: nowrap;
+      transform: translate(0, 0);
+      transform-origin: 0 0;
+      background: var(--color-background);
+      transition: transform 120ms ease-in;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+.input__field {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border: 3px solid currentColor;
+      padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+      color: currentColor;
+      background: transparent;
+      border-radius: var(--size-radius);
+    }
+  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
