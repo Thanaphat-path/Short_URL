@@ -1,3 +1,3 @@
 # Short_URL
-pip install -r requirements.txt
-run host:https://short-url.thanaphatsaengk.repl.co/
+# pip install -r requirements.txt
+# run host:https://short-url.thanaphatsaengk.repl.co/
